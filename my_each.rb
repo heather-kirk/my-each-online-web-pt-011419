@@ -4,10 +4,6 @@ def my_each(collection)
   yield collection[i]
     i += 1 
   end
-  collection
+4
 end
 
-collection = [1, 2, 3, 4]
-my_each(collection) do |i|
-  return i
-end
